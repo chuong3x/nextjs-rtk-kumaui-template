@@ -1,11 +1,13 @@
-import Counter from "@/components/Counter/Counter";
-import { Button, Text, VStack } from "@kuma-ui/core";
+import { Text, VStack } from "@kuma-ui/core";
+import CounterParent from "./CounterParent";
+import TextParent from "./TextParent";
 
 export default function Home() {
     return (
         <VStack as="main" alignItems={"center"}>
             <Text>Hello world!</Text>
-            <Counter />
+            <CounterParent />
+            <TextParent />
         </VStack>
     );
 }
